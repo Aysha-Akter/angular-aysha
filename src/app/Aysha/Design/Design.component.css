@@ -1,0 +1,14 @@
+.plus-btn {
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  color: white;
+  background-color: #07508b;
+  font-size: x-large;
+}
+.plus-btn:hover {
+  cursor: pointer;
+
+  box-shadow: 0 8px 8px -1px #07508b85;
+}
