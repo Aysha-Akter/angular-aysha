@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-//import { DesignComponent } from './Design/Design.component';
-import { listgroupComponent } from './listgroup/listgroup.component';
-//import { navbarComponent } from './navbar/navbar.component';
-//import { badgeComponent } from './badge/badge.component';
+import { DesignComponent } from './Design/Design.component';
+import { MyNavbarComponent } from './my-navbar/my-navbar.component';
+import { ListGroupComponent } from './list-group/list-group.component';
+import { MyBadgeComponent } from './my-badge/my-badge.component';
+
 
 
 
@@ -12,16 +13,19 @@ import { listgroupComponent } from './listgroup/listgroup.component';
     CommonModule
   ],
   declarations: [
-     //DesignComponent,
-     listgroupComponent,
-     //navbarComponent,
-     //badgeComponent
+     DesignComponent,
+     MyNavbarComponent,
+     ListGroupComponent,
+     MyBadgeComponent,
+   
   ],
   exports: [
-    //DesignComponent,
-    listgroupComponent,
-    //navbarComponent,
-     //badgeComponent
+    DesignComponent,
+     MyNavbarComponent,
+     ListGroupComponent,
+     MyBadgeComponent,
+    
+   
 
 
   ]
