@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 //import { DesignComponent } from './Design/Design.component';
 //import { listgroupComponent } from './listgroup/listgroup.component';
-import { navbarComponent } from './navbar/navbar.component';
+//import { navbarComponent } from './navbar/navbar.component';
+import { badgeComponent } from './badge/badge.component';
 
 
 
@@ -13,13 +14,16 @@ import { navbarComponent } from './navbar/navbar.component';
   declarations: [
      //DesignComponent,
      //listgroupComponent,
-     navbarComponent
-
+     //navbarComponent,
+     badgeComponent
   ],
   exports: [
     //DesignComponent,
     //listgroupComponent,
-    navbarComponent
+    //navbarComponent,
+     badgeComponent
+
+
   ]
 })
 export class AyshaModule { }
