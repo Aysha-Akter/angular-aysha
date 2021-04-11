@@ -1,16 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DesignComponent } from './Design/Design.component';
+//import { DesignComponent } from './Design/Design.component';
+//import { listgroupComponent } from './listgroup/listgroup.component';
+import { navbarComponent } from './navbar/navbar.component';
+
+
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-     DesignComponent
+     //DesignComponent,
+     //listgroupComponent,
+     navbarComponent
+
   ],
   exports: [
-    DesignComponent,
+    //DesignComponent,
+    //listgroupComponent,
+    navbarComponent
   ]
 })
 export class AyshaModule { }
