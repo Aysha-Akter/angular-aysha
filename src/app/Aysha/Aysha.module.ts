@@ -4,6 +4,7 @@ import { DesignComponent } from './Design/Design.component';
 import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { MyBadgeComponent } from './my-badge/my-badge.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 
 
@@ -17,6 +18,7 @@ import { MyBadgeComponent } from './my-badge/my-badge.component';
      MyNavbarComponent,
      ListGroupComponent,
      MyBadgeComponent,
+     AccordionComponent,
    
   ],
   exports: [
@@ -24,6 +26,7 @@ import { MyBadgeComponent } from './my-badge/my-badge.component';
      MyNavbarComponent,
      ListGroupComponent,
      MyBadgeComponent,
+     AccordionComponent,
     
    
 
