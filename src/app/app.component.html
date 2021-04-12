@@ -16,6 +16,9 @@
       <ng-container  *ngIf="activeComponent=='badge'">
         <app-my-badge></app-my-badge>
       </ng-container>
+         <ng-container  *ngIf="activeComponent=='list-badge'">
+        <app-list-badge></app-list-badge>
+      </ng-container>
     </div>
 
     <div class="col-4">
@@ -28,6 +31,7 @@
   <a (click)="onComponent('badge')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Badge</a>
    <a (click)="onComponent('navbar')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Navbar</a>
    <a (click)="onComponent('accordion')" href="#" class="list-group-item list-group-item-action">Accordion</a> 
+    <a (click)="onComponent('list-badge')" href="#" class="list-group-item list-group-item-action">List with Badge</a> 
     
 </div>  
     </div>

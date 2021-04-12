@@ -7,6 +7,7 @@ import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { MyBadgeComponent } from './my-badge/my-badge.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { ListBadgeComponent } from './list-badge/list-badge.component';
 
 
 
@@ -22,6 +23,7 @@ import { AccordionComponent } from './accordion/accordion.component';
      ListGroupComponent,
      MyBadgeComponent,
      AccordionComponent,
+     ListBadgeComponent,
    
   ],
   exports: [
@@ -30,6 +32,7 @@ import { AccordionComponent } from './accordion/accordion.component';
      ListGroupComponent,
      MyBadgeComponent,
      AccordionComponent,
+    ListBadgeComponent,
     
    
 
