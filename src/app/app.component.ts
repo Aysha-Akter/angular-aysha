@@ -7,7 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
- component = ['navbar','badge','list-group','bootstrap4','accordion','list-badge','alert'];
+ component = ['navbar','badge','list-group','bootstrap4','accordion','list-badge','alert','navbar-badge'];
   activeComponent = 'navbar';
   onComponent(component:string){
   this.activeComponent = component;

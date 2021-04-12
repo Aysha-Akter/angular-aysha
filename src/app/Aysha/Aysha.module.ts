@@ -9,6 +9,7 @@ import { MyBadgeComponent } from './my-badge/my-badge.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ListBadgeComponent } from './list-badge/list-badge.component';
 import { AlertComponent } from './alert/alert.component';
+import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
 
 
 
@@ -26,6 +27,7 @@ import { AlertComponent } from './alert/alert.component';
      AccordionComponent,
      ListBadgeComponent,
      AlertComponent,
+     NavbarBadgeComponent,
    
   ],
   exports: [
@@ -36,6 +38,7 @@ import { AlertComponent } from './alert/alert.component';
      AccordionComponent,
     ListBadgeComponent,
     AlertComponent,
+    NavbarBadgeComponent,
    
 
 
