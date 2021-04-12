@@ -6,10 +6,10 @@ import { AyshaModule } from "./Aysha/Aysha.module";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
-import { AccordionModule } from "ngx-bootstrap/accordion";
+
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, AyshaModule, AccordionModule.forRoot()],
+  imports: [BrowserModule, FormsModule, AyshaModule, ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]
 })
