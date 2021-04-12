@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+
+.panel {
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
