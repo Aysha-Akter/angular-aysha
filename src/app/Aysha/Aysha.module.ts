@@ -7,8 +7,6 @@ import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { MyBadgeComponent } from './my-badge/my-badge.component';
 import { AccordionComponent } from './accordion/accordion.component';
-import { AccordionModule,  } from 'ngx-bootstrap/accordion';
-
 
 
 
@@ -16,7 +14,7 @@ import { AccordionModule,  } from 'ngx-bootstrap/accordion';
 
 @NgModule({
   imports: [
-    CommonModule, BrowserModule, BrowserAnimationsModule, AccordionModule.forRoot()
+    CommonModule, BrowserModule, BrowserAnimationsModule
   ],
   declarations: [
      DesignComponent,

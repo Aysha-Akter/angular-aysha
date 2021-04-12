@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accordion.component.css']
 })
 export class AccordionComponent implements OnInit {
-  
+  isAnimated=true;
   constructor() { }
 
   ngOnInit() {
