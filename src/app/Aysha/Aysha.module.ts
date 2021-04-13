@@ -13,6 +13,7 @@ import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -34,6 +35,7 @@ import { ButtonGroupComponent } from './button-group/button-group.component';
      BreadcrumbComponent,
      ButtonComponent,
      ButtonGroupComponent,
+     CarouselComponent,
    
   ],
   exports: [
@@ -48,8 +50,8 @@ import { ButtonGroupComponent } from './button-group/button-group.component';
     BreadcrumbComponent,
     ButtonComponent,
     ButtonGroupComponent,
+    CarouselComponent,
    
-
 
   ]
 })
