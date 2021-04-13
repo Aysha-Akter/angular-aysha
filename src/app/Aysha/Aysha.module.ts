@@ -63,6 +63,7 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
     AccordionCollapseComponent,
     PaginationComponent,
     ProgressComponent,
+    ScrollspyComponent
 
   ]
 })
