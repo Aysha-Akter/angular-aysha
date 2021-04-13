@@ -15,6 +15,7 @@ import { ButtonComponent } from './button/button.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { AccordionCollapseComponent } from './accordion-collapse/accordion-collapse.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 
 
@@ -38,6 +39,7 @@ import { AccordionCollapseComponent } from './accordion-collapse/accordion-colla
      ButtonGroupComponent,
      CarouselComponent,
      AccordionCollapseComponent,
+     PaginationComponent,
    
   ],
   exports: [
@@ -54,7 +56,7 @@ import { AccordionCollapseComponent } from './accordion-collapse/accordion-colla
     ButtonGroupComponent,
     CarouselComponent,
     AccordionCollapseComponent,
-   
+    PaginationComponent,
 
   ]
 })
