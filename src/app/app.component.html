@@ -31,6 +31,9 @@
       <ng-container *ngIf="activeComponent=='button'">
         <app-button></app-button>
       </ng-container>
+        <ng-container *ngIf="activeComponent=='button-group'">
+      <app-button-group></app-button-group>
+        </ng-container>
 
     </div>
 
@@ -51,6 +54,8 @@
     class="list-group-item list-group-item-action">Breadcrumb</a>
     <a (click)="onComponent ('button')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">Button</a>
+    <a (click)="onComponent ('button-group')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Button-Group</a>
 
     
 </div>  

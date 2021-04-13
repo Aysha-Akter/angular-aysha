@@ -12,6 +12,7 @@ import { AlertComponent } from './alert/alert.component';
 import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
+import { ButtonGroupComponent } from './button-group/button-group.component';
 
 
 
@@ -32,6 +33,7 @@ import { ButtonComponent } from './button/button.component';
      NavbarBadgeComponent,
      BreadcrumbComponent,
      ButtonComponent,
+     ButtonGroupComponent,
    
   ],
   exports: [
@@ -45,6 +47,7 @@ import { ButtonComponent } from './button/button.component';
     NavbarBadgeComponent,
     BreadcrumbComponent,
     ButtonComponent,
+    ButtonGroupComponent,
    
 
 
