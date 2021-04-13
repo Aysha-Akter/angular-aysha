@@ -10,6 +10,7 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ListBadgeComponent } from './list-badge/list-badge.component';
 import { AlertComponent } from './alert/alert.component';
 import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 
 
@@ -28,6 +29,7 @@ import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
      ListBadgeComponent,
      AlertComponent,
      NavbarBadgeComponent,
+     BreadcrumbComponent,
    
   ],
   exports: [
@@ -39,6 +41,7 @@ import { NavbarBadgeComponent } from './navbar-badge/navbar-badge.component';
     ListBadgeComponent,
     AlertComponent,
     NavbarBadgeComponent,
+    BreadcrumbComponent,
    
 
 
