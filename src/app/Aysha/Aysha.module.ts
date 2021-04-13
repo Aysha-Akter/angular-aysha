@@ -16,7 +16,7 @@ import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { AccordionCollapseComponent } from './accordion-collapse/accordion-collapse.component';
 import { PaginationComponent } from './pagination/pagination.component';
-import { ProgessComponent } from './progess/progess.component';
+
 import { ProgressComponent } from './progress/progress.component';
 
 
@@ -42,7 +42,6 @@ import { ProgressComponent } from './progress/progress.component';
      CarouselComponent,
      AccordionCollapseComponent,
      PaginationComponent,
-     ProgessComponent,
      ProgressComponent,
    
   ],
@@ -61,7 +60,7 @@ import { ProgressComponent } from './progress/progress.component';
     CarouselComponent,
     AccordionCollapseComponent,
     PaginationComponent,
-    ProgessComponent,
+    ProgressComponent,
 
   ]
 })
