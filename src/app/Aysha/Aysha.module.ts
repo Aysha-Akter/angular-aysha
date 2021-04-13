@@ -18,6 +18,7 @@ import { AccordionCollapseComponent } from './accordion-collapse/accordion-colla
 import { PaginationComponent } from './pagination/pagination.component';
 
 import { ProgressComponent } from './progress/progress.component';
+import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 
 
 
@@ -43,6 +44,7 @@ import { ProgressComponent } from './progress/progress.component';
      AccordionCollapseComponent,
      PaginationComponent,
      ProgressComponent,
+     ScrollspyComponent,
    
   ],
   exports: [

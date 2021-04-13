@@ -44,9 +44,11 @@
       <app-pagination></app-pagination>
         </ng-container>
          <ng-container *ngIf="activeComponent=='progress'">
-      <app-pagination></app-pagination>
-        </ng-container>
-
+      <app-progress></app-progress>
+         </ng-container>
+        </ng-container *ngIf="activeComponent=='scrollspy'">
+        <app-scrollspy></app-scrollspy>
+         </ng-container>
     </div>
 
     <div class="col-4">
@@ -74,7 +76,7 @@
     class="list-group-item list-group-item-action">Accordion-Callapse</a>
      <a (click)="onComponent ('pagination')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">Pagination</a>
-      <a (click)="onComponent ('progress')" href="jacascript::void(0)"
+      <a (click)="onComponent ('scrollspy')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">Progress</a>
 </div>  
     </div>
