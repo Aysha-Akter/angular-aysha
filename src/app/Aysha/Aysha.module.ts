@@ -14,6 +14,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { AccordionCollapseComponent } from './accordion-collapse/accordion-collapse.component';
 
 
 
@@ -36,6 +37,7 @@ import { CarouselComponent } from './carousel/carousel.component';
      ButtonComponent,
      ButtonGroupComponent,
      CarouselComponent,
+     AccordionCollapseComponent,
    
   ],
   exports: [
@@ -51,6 +53,7 @@ import { CarouselComponent } from './carousel/carousel.component';
     ButtonComponent,
     ButtonGroupComponent,
     CarouselComponent,
+    AccordionCollapseComponent,
    
 
   ]

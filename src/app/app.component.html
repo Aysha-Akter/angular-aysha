@@ -37,6 +37,9 @@
           <ng-container *ngIf="activeComponent=='carousel'">
       <app-carousel></app-carousel>
         </ng-container>
+         <ng-container *ngIf="activeComponent=='accordion-collapse'">
+      <app-accordion-collapse></app-accordion-collapse>
+        </ng-container>
 
     </div>
 
@@ -61,6 +64,8 @@
     class="list-group-item list-group-item-action">Button-Group</a>
     <a (click)="onComponent ('carousel')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">Carousel</a>
+    <a (click)="onComponent ('accordion-collapse')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Accordion-Callapse</a>
     
 </div>  
     </div>
