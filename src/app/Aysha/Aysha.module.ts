@@ -19,6 +19,7 @@ import { PaginationComponent } from './pagination/pagination.component';
 
 import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 
 
@@ -45,6 +46,7 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
      PaginationComponent,
      ProgressComponent,
      ScrollspyComponent,
+     TooltipsComponent,
    
   ],
   exports: [
@@ -63,7 +65,8 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
     AccordionCollapseComponent,
     PaginationComponent,
     ProgressComponent,
-    ScrollspyComponent
+    ScrollspyComponent,
+    TooltipsComponent
 
   ]
 })

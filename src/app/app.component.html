@@ -49,6 +49,9 @@
         <ng-container *ngIf="activeComponent=='scrollspy'">
         <app-scrollspy></app-scrollspy>
          </ng-container>
+         <ng-container *ngIf="activeComponent=='tooltips'">
+        <app-tooltips></app-tooltips>
+         </ng-container>
     </div>
 
     <div class="col-4">
@@ -80,6 +83,8 @@
     class="list-group-item list-group-item-action">Progress</a>
     <a (click)="onComponent ('scrollspy')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">scrollspy</a>
+    <a (click)="onComponent ('tooltips')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Tooltips</a>
     
 </div>  
     </div>
