@@ -52,6 +52,9 @@
          <ng-container *ngIf="activeComponent=='tooltips'">
         <app-tooltips></app-tooltips>
          </ng-container>
+         <ng-container *ngIf="activeComponent=='carousel-button'">
+        <app-carousel-button></app-carousel-button>
+         </ng-container>
     </div>
 
     <div class="col-4">
@@ -85,6 +88,8 @@
     class="list-group-item list-group-item-action">scrollspy</a>
     <a (click)="onComponent ('tooltips')" href="jacascript::void(0)"
     class="list-group-item list-group-item-action">Tooltips</a>
+     <a (click)="onComponent ('carousel-button')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Carousel-button</a>
     
 </div>  
     </div>

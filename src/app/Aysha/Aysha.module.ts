@@ -20,6 +20,7 @@ import { PaginationComponent } from './pagination/pagination.component';
 import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { CarouselButtonComponent } from './carousel-button/carousel-button.component';
 
 
 
@@ -47,6 +48,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
      ProgressComponent,
      ScrollspyComponent,
      TooltipsComponent,
+     CarouselButtonComponent,
    
   ],
   exports: [
@@ -66,7 +68,8 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
     PaginationComponent,
     ProgressComponent,
     ScrollspyComponent,
-    TooltipsComponent
+    TooltipsComponent,
+    CarouselButtonComponent
 
   ]
 })
