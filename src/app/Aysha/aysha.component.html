@@ -1,3 +1,97 @@
-<p>
-aysha works!
-</p>
+<div class="container mt-2">
+ <div class="row">
+    <div class="col-8">
+      <ng-container  *ngIf="activeComponent=='navbar'">
+        <app-my-navbar></app-my-navbar>
+      </ng-container>
+      <ng-container  *ngIf="activeComponent=='accordion'">
+        <app-accordion></app-accordion>
+      </ng-container>
+      <ng-container  *ngIf="activeComponent=='list-group'">
+        <app-list-group></app-list-group>
+      </ng-container>
+      <ng-container  *ngIf="activeComponent=='bootstrap4'">
+        <app-aysha-bootstrap4></app-aysha-bootstrap4>
+      </ng-container>
+      <ng-container  *ngIf="activeComponent=='badge'">
+        <app-my-badge></app-my-badge>
+      </ng-container>
+         <ng-container  *ngIf="activeComponent=='list-badge'">
+        <app-list-badge></app-list-badge>
+      </ng-container>
+       <ng-container  *ngIf="activeComponent=='alert'">
+        <app-alert></app-alert>
+      </ng-container>
+       <ng-container  *ngIf="activeComponent=='navbar-badge'">
+        <app-navbar-badge></app-navbar-badge>
+      </ng-container>
+      <ng-container *ngIf="activeComponent=='breadcrumb'">
+        <app-breadcrumb></app-breadcrumb>
+      </ng-container>
+      <ng-container *ngIf="activeComponent=='button'">
+        <app-button></app-button>
+      </ng-container>
+        <ng-container *ngIf="activeComponent=='button-group'">
+      <app-button-group></app-button-group>
+        </ng-container>
+          <ng-container *ngIf="activeComponent=='carousel'">
+      <app-carousel></app-carousel>
+        </ng-container>
+         <ng-container *ngIf="activeComponent=='accordion-collapse'">
+      <app-accordion-collapse></app-accordion-collapse>
+        </ng-container>
+         <ng-container *ngIf="activeComponent=='pagination'">
+      <app-pagination></app-pagination>
+        </ng-container>
+         <ng-container *ngIf="activeComponent=='progress'">
+      <app-progress></app-progress>
+         </ng-container>
+        <ng-container *ngIf="activeComponent=='scrollspy'">
+        <app-scrollspy></app-scrollspy>
+         </ng-container>
+         <ng-container *ngIf="activeComponent=='tooltips'">
+        <app-tooltips></app-tooltips>
+         </ng-container>
+         <ng-container *ngIf="activeComponent=='carousel-button'">
+        <app-carousel-button></app-carousel-button>
+         </ng-container>
+    </div>
+
+    <div class="col-4">
+<div class="list-group">
+  <a href="https://valor-software.com/ngx-bootstrap/#/documentation#getting-started" class="list-group-item list-group-item-action active">
+    Ref-1
+  </a>
+  <a (click)="onComponent('bootstrap4')" href="jacascript::void(0)" class="list-group-item list-group-item-action" >Card</a>
+  <a (click)="onComponent('list-group')" href="jacascript::void(0)" class="list-group-item list-group-item-action">List-Group</a>
+  <a (click)="onComponent('badge')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Badge</a>
+   <a (click)="onComponent('navbar')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Navbar</a>
+   <a (click)="onComponent('accordion')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Accordion</a> 
+    <a (click)="onComponent('list-badge')" href="jacascript::void(0)" class="list-group-item list-group-item-action">List with Badge</a> 
+    <a (click)="onComponent('alert')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Alert</a> 
+    <a (click)="onComponent('navbar-badge')" href="jacascript::void(0)" class="list-group-item list-group-item-action">Navbar with Badge</a>
+    <a (click)="onComponent('breadcrumb')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Breadcrumb</a>
+    <a (click)="onComponent ('button')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Button</a>
+    <a (click)="onComponent ('button-group')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Button-Group</a>
+    <a (click)="onComponent ('carousel')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Carousel</a>
+    <a (click)="onComponent ('accordion-collapse')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Accordion-Callapse</a>
+     <a (click)="onComponent ('pagination')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Pagination</a>
+      <a (click)="onComponent ('progress')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Progress</a>
+    <a (click)="onComponent ('scrollspy')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">scrollspy</a>
+    <a (click)="onComponent ('tooltips')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Tooltips</a>
+     <a (click)="onComponent ('carousel-button')" href="jacascript::void(0)"
+    class="list-group-item list-group-item-action">Carousel-button</a>
+    
+      </div>  
+    </div>
+  </div>
+</div>
