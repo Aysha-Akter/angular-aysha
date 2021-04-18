@@ -54,6 +54,7 @@ import { AyshaComponent } from './aysha.component';
    
   ],
   exports: [
+    AyshaComponent,
     DesignComponent,
      MyNavbarComponent,
      ListGroupComponent,
@@ -72,7 +73,7 @@ import { AyshaComponent } from './aysha.component';
     ScrollspyComponent,
     TooltipsComponent,
     CarouselButtonComponent
-
+    
   ]
 })
 export class AyshaModule { }
