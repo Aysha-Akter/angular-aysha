@@ -21,6 +21,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CarouselButtonComponent } from './carousel-button/carousel-button.component';
+import { AyshaComponent } from './aysha.component';
 
 
 
@@ -49,6 +50,7 @@ import { CarouselButtonComponent } from './carousel-button/carousel-button.compo
      ScrollspyComponent,
      TooltipsComponent,
      CarouselButtonComponent,
+     AyshaComponent,
    
   ],
   exports: [
