@@ -12,3 +12,19 @@
 
   box-shadow: 0 8px 8px -1px #07508b85;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.fa-fw{
+  width: 1.5em;
+  text-align: center;
+}
