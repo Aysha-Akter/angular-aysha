@@ -1,0 +1,32 @@
+.plus-btn {
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  color: white;
+  background-color: #07508b;
+  font-size: x-large;
+}
+.plus-btn:hover {
+ 
+  cursor: pointer;
+  /*background-color: gray;*/
+box-shadow: 0 8px 8px -1px #07508b93;
+}
+
+h3, p{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
