@@ -6,6 +6,7 @@ import { AyshaModule } from "./Aysha/Aysha.module";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
+import { Common1Module } from "./common1/common1.module";
 
 
 
@@ -14,6 +15,8 @@ import { HelloComponent } from "./hello.component";
   imports: [BrowserModule, 
             FormsModule, 
             AyshaModule,
+            Common1Module,
+
           ],
 
   declarations: [AppComponent, 
