@@ -6,7 +6,7 @@ import { AyshaModule } from "./Aysha/Aysha.module";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
-import { CommonComponent } from './common/common.component';
+
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { CommonComponent } from './common/common.component';
 
   declarations: [AppComponent, 
                  HelloComponent, 
-                 CommonComponent],
+               ],
 
   bootstrap: [AppComponent]
 })
