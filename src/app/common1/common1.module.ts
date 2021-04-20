@@ -5,10 +5,6 @@ import { BrowserAnimationsModule } from   '@angular/platform-browser/animations'
 import { Common1Component } from './common1.component';
 
 
-
-
-
-
 @NgModule({
   imports: [
     CommonModule, BrowserModule, BrowserAnimationsModule
