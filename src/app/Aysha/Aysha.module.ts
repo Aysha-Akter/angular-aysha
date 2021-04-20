@@ -22,6 +22,7 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CarouselButtonComponent } from './carousel-button/carousel-button.component';
 import { AyshaComponent } from './aysha.component';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -51,6 +52,7 @@ import { AyshaComponent } from './aysha.component';
      TooltipsComponent,
      CarouselButtonComponent,
      AyshaComponent,
+     TestComponent,
    
   ],
   exports: [
