@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from   '@angular/platform-browser/animations';
 import { Common1Component } from './common1.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
@@ -11,10 +12,12 @@ import { Common1Component } from './common1.component';
   ],
   declarations: [
      Common1Component,
+     NavComponent,
    
   ],
   exports: [
     Common1Component,
+    NavComponent,
     
   ]
 })
