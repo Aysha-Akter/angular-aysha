@@ -6,6 +6,7 @@ import { AyshaModule } from "./Aysha/Aysha.module";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
+import { CommonTempComponent } from './common-temp/common-temp.component';
 
 
 
@@ -15,7 +16,7 @@ import { HelloComponent } from "./hello.component";
             AyshaModule, ],
 
   declarations: [AppComponent, 
-                 HelloComponent, 
+                 HelloComponent, CommonTempComponent, 
                ],
 
   bootstrap: [AppComponent]
